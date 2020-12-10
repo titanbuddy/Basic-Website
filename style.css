@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.nav-link {
+  margin-right: 1.2em;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.navbar-brand {
+  color: #fff;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #000;
+}
+.navbar {
+  position: relative;
+  background: linear-gradient(to right, #50d1c0 0%, #16c9f6 0%, #00c3ff 100%);
+}
+/* hero start */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+   font-size: 1.7rem;
+  }
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+  background: url(/img/hero.jpeg) no-repeat;
+  background-size: cover;
+}
+.hero h1 {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 8px black;
+}
+.hero p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 8px black;
+}
+.copy {
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.6rem 1.5rem;
+  color: #fff;
+}
+.copy:hover {
+  background: white;
+  color: rgb(85, 206, 206);
+}
+/* hero End */
+.extra-div {
+  margin: 60px auto !important;
+}
+.column {
+  padding: 30px;
+  transition: 0.5s;
+  margin: 20px auto;
+}
+.column:hover {
+  transform: translateY(-1em);
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
+}
+.column p {
+  font-size: 0.8rem;
+  opacity: 0.9;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+}
+.column h6 {
+  font-size: 0.9rem;
+  font-weight: 900 !important;
+}
+.column .fa {
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+/* .services */
+.services {
+  padding: 30px 0;
+  background: #eee;
+}
+.services .fa {
+  color: rgb(0, 97, 189);
+}
+.services p {
+  font-size: 0.8rem;
+  opacity: 0.9;
+  letter-spacing: 0.9px;
+}
+.services h3 {
+  font-weight: 900;
+}
+.progress {
+  height: 7%;
+  width: 85%;
+}
+
+.h6 {
+  font-weight: 900;
+}
+.cms {
+  margin: 50px auto;
+}
+.op {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+}
+.cms h5 {
+  font-weight: 700;
+}
+/* pricing//////////////////////////////////////////////////////////////////////////// */
+.pricing h1 {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.card {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+.card-header {
+  padding: 30px 20px;
+  background: white;
+}
+.card-header h4 {
+  font-weight: 900;
+}
+.list-group-item {
+  border-bottom: 0;
+}
+.pricing {
+  background: linear-gradient(145deg, #16c9f6 55%, white 0%);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group {
+  padding: 40px;
+}
+.card-footer {
+  padding: 20px;
+  background: white;
+}
+.copy-2 {
+  color: cyan;
+  border: 1px solid rgb(85, 206, 206);
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  transition: -1s;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.card:hover .copy-2 {
+  background: rgb(85, 206, 206);
+  color: white;
+}
+.card:hover .money {
+  color: rgb(85, 206, 206);
+}
+.card:hover .card-header {
+  color: rgb(85, 206, 206);
+}
+/* Box */
+.team {
+  margin: 150px auto !important;
+}
+.box {
+  box-shadow: 1px 1px 20px rgba(0, 255, 255, 0.501);
+   padding: 5rem 1rem;
+   position: relative;
+   margin: 50px 0;
+   transition: .5s;
+}
+.box h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.box img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.btn-hire {
+  border: 1px solid cyan;
+  color:  cyan;
+  padding: .5rem 2rem;
+  border-radius: 100px;
+  transition: .3s;
+}
+.btn-hire:hover {
+  background: cyan;
+  color: #fff;
+  font-weight: 900;
+}
+.box:hover {
+  transform: translateY(-1rem);
+}
